@@ -1,4 +1,5 @@
 import xlrd
+import os
 
 f = open("3755.txt", "r")  # 汉字序号文件
 lines = f.readlines()
