@@ -17,6 +17,8 @@ for line in lines:
             k = k + 1
 
     print(k)  # 汉字笔画数
+    
+    os.makedirs("/Users/xiaomo/PycharmProjects/datause/strokes-classify-number/", exist_ok=True)
     with open('/Users/xiaomo/PycharmProjects/datause/strokes-classify-number/' + str(k) + '.txt', 'a', encoding='utf-8') as f:
         f.write(h + '\n')
 
